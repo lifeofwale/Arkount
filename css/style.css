@@ -168,7 +168,7 @@ body {
   margin-bottom: 0;
 }
 .dashboard .banner {
-  background-image: url("https://github.com/lifeofwale/Arkount/blob/master/img/banner.svg");
+  background-image: url("https://raw.githubusercontent.com/lifeofwale/Arkount/085b945e384939c4a371a2917a993f9eadaacf7b/img/banner.svg");
   min-width: 100%;
   min-height: 24.8rem;
   background-repeat: no-repeat;
