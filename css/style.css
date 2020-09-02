@@ -7,6 +7,26 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 32.5%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 52.5%;
+  }
+}
 body {
   font-family: SF Pro Display;
   font-size: 1.6rem;
@@ -61,6 +81,31 @@ body {
 
 .py-24 {
   padding: 2.4rem 0 2.4rem 0;
+}
+
+.h2-table {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #1E2326;
+}
+
+.p-table {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #1E2326;
+  margin-bottom: 2rem;
+}
+
+.ft-12 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1E2326;
+}
+
+.text-green {
+  color: #22A45D;
 }
 
 .arknav {
@@ -127,9 +172,10 @@ body {
   min-width: 100%;
   min-height: 24.8rem;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   padding: 0 0 0 6.4rem;
+  border-radius: 2.4rem;
 }
 .dashboard .banner .banner__content {
   position: absolute;
@@ -145,7 +191,23 @@ body {
 .dashboard .banner .banner__content p {
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+table > thead > tr > th {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+thead th {
+  background-color: #F6F8F9;
+  color: #1E2326;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #FFF7F4;
 }
 /*# sourceMappingURL=style.css.map */
