@@ -23,14 +23,10 @@ var data = {
     ]
 };
 
-// Notice the rotation from the documentation.
+
 
 var options = {
-        // title: {
-        //           display: true,
-        //           text: 'What happens when you lend your favorite t-shirt to a girl ?',
-        //           position: 'top'
-        //       },
+        
         rotation: -0.9 * Math.PI,
         legend: {
             display: false
@@ -41,37 +37,20 @@ var options = {
 };
 
 
-// Chart declaration:
+
 var myBarChart = new Chart(ctx, {
     type: 'pie',
     data: data,
     options: options
 });
 
-// Fun Fact: I've lost exactly 3 of my favorite T-shirts and 2 hoodies this way :|
 
-
-// Bar Chart Starts Here
 
 google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawCharts);
 function drawCharts() {
   
-  // BEGIN BAR CHART
-  /*
-  // create zero data so the bars will 'grow'
-  var barZeroData = google.visualization.arrayToDataTable([
-    ['Day', 'Page Views', 'Unique Views'],
-    ['Sun',  0,      0],
-    ['Mon',  0,      0],
-    ['Tue',  0,      0],
-    ['Wed',  0,      0],
-    ['Thu',  0,      0],
-    ['Fri',  0,      0],
-    ['Sat',  0,      0]
-  ]);
-	*/
-  // actual bar chart data
+ 
   var barData = google.visualization.arrayToDataTable([
     ['', 'Received', 'On hand', 'Shipped'],
     ['21',  1050,      600,  700],
@@ -92,8 +71,8 @@ function drawCharts() {
     chartArea: {
       left: 50,
       top: 10,
-      width: '80%',
-      height: '80%'
+      width: '100%',
+      height: '100%'
     },
     bar: {
       groupWidth: '60%'
