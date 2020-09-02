@@ -6,32 +6,29 @@
 
 html{
     font-size: 62.5%;
+
+
+       // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { font-size: 45.5%;  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { font-size: 45.9%; }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {  font-size: 46.5%; }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { font-size: 48.5%; }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { font-size: 62.5%; }
+
+
+
+
+
 }
 
-@media only screen and (max-width: 600px) {
-    html {
-        font-size: 62.5%;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    html {
-        font-size: 32.5%;
-    }
-  }
-
-  @media only screen and (min-width: 768px) {
-    html {
-        font-size: 42.5%;
-    }
-  }
-
-
-  @media only screen and (min-width: 992px) {
-    html {
-        font-size: 52.5%;
-    }
-  }
 
 $base-color: #090B0B;
 $text-clr: #1E2326;
@@ -97,6 +94,10 @@ body{
 .py-24{
     padding: 2.4rem 0 2.4rem 0;
 }
+
+.py-16{
+    padding: 1.6rem 0 1.6rem 0;
+}
 .h2-table{
     font-weight: 500;
 font-size: 2.4rem;
@@ -120,6 +121,12 @@ line-height: 14px;
 
 .text-green{
     color: $link-clr2;
+}
+.text-purple{
+    color: #5848BB;
+}
+.text-red{
+    color: #F11111;
 }
 .arknav{
 
@@ -195,7 +202,23 @@ line-height: 14px;
 .dashboard {
     min-height:100%;
     border-radius: 3.2rem 3.2rem 0 0;
-    padding: 0 10.8rem 0 10.8rem;
+    
+
+
+    // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { padding: 0 1.2rem 0 1.2rem;  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { padding: 0 1.4rem 0 1.4rem; }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {  padding: 0 4.8rem 0 4.8rem; }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { padding: 0 10.8rem 0 10.8rem; }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { padding: 0 10.8rem 0 10.8rem; }
 
     .dashboard__crumb{
         padding: 3.2rem 0 3.2rem 0;
