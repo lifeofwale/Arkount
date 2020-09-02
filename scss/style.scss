@@ -237,6 +237,21 @@ line-height: 14px;
         }
 }
 
+
+.data {
+
+    .inventory_Status{
+        background-color: #FFF7F3;
+        min-height: 46.2rem;
+        padding:1.6rem 2.4rem 1.6rem 2.4rem;
+    }
+    .shipment_Status{
+        background-color: #FFFFFF;
+        min-height: 46.2rem;
+        padding:1.6rem 2.4rem 1.6rem 2.4rem;
+    }
+}
+
 table > thead > tr > th {
     font-style: normal;
 font-weight: normal;
@@ -250,4 +265,9 @@ thead th {
 } 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color: #FFF7F4;
+  }
+
+  .b-custom{
+    box-shadow: 0px 4px 4px rgba(1, 15, 7, 0.2);
+    border-radius: 24px;
   }
