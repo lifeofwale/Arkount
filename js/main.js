@@ -71,8 +71,11 @@ function drawCharts() {
     chartArea: {
       left: 50,
       top: 10,
-      width: '100%',
-      height: '100%'
+      width: '80%',
+      height: '80%'
+    }, options: {
+        responsive: true,
+        maintainAspectRatio: false,
     },
     bar: {
       groupWidth: '60%'
@@ -88,7 +91,7 @@ function drawCharts() {
       baselineColor: '#fff',
       textPosition: 'none',
       gridlines: {
-        color: '#fff',
+        color: '#FFF7F3',
         count: 4
       },
       textStyle: {
